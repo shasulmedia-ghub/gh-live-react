@@ -14,10 +14,9 @@ function App() {
 <Link to="/gh-live-react/home">Home</Link>
 </nav>
 <Routes>
-  <Route path="gh-live-react/" element={<Welcome/>}> 
-    <Route path="gh-live-react/about" element={<About/>}/>
-    <Route path="gh-live-react/home" element={<Home/>}/>
-  </Route>
+  <Route path="/gh-live-react/" element={<Welcome/>}/> 
+    <Route path="/gh-live-react/about" element={<About/>}/>
+    <Route path="/gh-live-react/home" element={<Home/>}/>
 </Routes>
 </BrowserRouter>
     </>
